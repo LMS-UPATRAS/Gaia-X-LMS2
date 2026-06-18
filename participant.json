@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://w3id.org/gaia-x/2411#",
+    {
+      "schema": "https://schema.org/",
+      "gx": "https://w3id.org/gaia-x/2411#"
+    }
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-LMS2#participant-vc",
+  "type": [
+    "VerifiableCredential",
+    "gx:LegalPerson"
+  ],
+  "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS2",
+  "validFrom": "2026-06-18T07:30:36Z",
+  "credentialStatus": {
+    "id": "did:web:lms-upatras.github.io:Gaia-X-LMS2#status-list",
+    "type": "BitstringStatusList2023"
+  },
+  "credentialSubject": {
+    "id": "did:web:lms-upatras.github.io:Gaia-X-LMS2",
+    "type": "gx:LegalPerson",
+    "schema:name": "Laboratory of Manufacturing Systems and Automations",
+    "gx:registrationNumber": {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-LMS2#registration"
+    },
+    "gx:headquartersAddress": {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-LMS2#address"
+    },
+    "gx:legalAddress": {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-LMS2#address"
+    }
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-06-18T07:30:36Z",
+    "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS2#key-1",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMyI2tleS0xIn0..1n0dGdHplAfaNkIVzQkL_lGevYhO0CCC2yPw14kp08FwB_cYvP8MTJkOQ21IRuzSh3zZ620aOMztcwGNqmcah0sGv4Je0sX1BEV0Hi_ppMPn2yg2GLChN1aF_OpNjCoEPvAiBUKb2TpkvpMr1zSOMYuk6tcKd5PZlgOOGzzPNvxf0ClKdFzzWFdfy4Xquuxq4YeJsghlGkiE_MNSjDLI1afIgeEyplT2J0L-hjiHfVUgUzt2pyigJ7Ow0aMh_2k9i8J9nl_HrV4iekx4Csm629iDDNawGmGhVy1ZDzyx6ARVBKtv2CE7z5G1MAwEkM6X4hiI1rVUE69HAG31uRycLnEJ696MIoYGJcIbmdLyzA_cWQIOUxXtI4iGPiyL4VpWJxMwvYC_ODzH8v4XdimqgvGRZ3dZdMKeZrGmC1dzj1aB71h4BxsCK3Q3rjz6T9QWgXhj3ZlWrvZc-OiIz0h4BmT9CLXiF0I7BKfgSH7s_ua02NGfGOFhdPCR0JEGAsPEKaaPxE3rHc2ZJKG4iQLX0CN88-7OyNPLYiQba6OSt13yPkGbwBdkSe6_tpMS89FLGRm_rRsoMC2MnVw-tdUGqRl3_IF8DFOCacJYTwQAakeHdqYgCWdZ8Ve3WX8yhrb1iT33uQz2hjoSB3p1tWDIS8ii2KUPhPJ76BFeEjK-wmg"
+  }
+}
