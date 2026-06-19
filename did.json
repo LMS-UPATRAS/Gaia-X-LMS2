@@ -44,7 +44,7 @@
     {
       "id": "did:web:lms-upatras.github.io:Gaia-X-LMS2#protocol-endpoint",
       "type": "ConnectorProtocolEndpoint",
-      "serviceEndpoint": "https://gaia-x-connector-2.lmsupatras.gr/protocol/api/protocol/2025-1"
+      "serviceEndpoint": "https://gaia-x-sandbox.lmsupatras.gr/protocol/api/protocol/2025-1"
     }
   ]
 }
